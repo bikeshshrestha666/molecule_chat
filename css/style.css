@@ -1,7 +1,7 @@
 
 body{
     height: 100vh;
-    background-image: linear-gradient(rgb(129 215 115), black);
+    background-image: linear-gradient(#614385, #516395);
 }
 
 .logo{
@@ -19,21 +19,22 @@ h1{
 }
 .container{
     max-width: 955px;
-    background-color: aqua;
+    background-color: rgba(74, 68, 68, 0.52);
+    backdrop-filter: 30px;
     margin: auto;
     height: 60vh;
-    border: 3px solid black;
+    border: 2px solid black;
     padding: 30px;
     overflow-y: auto;
     margin-bottom: 23px;
 }
 
-.message_box{
-    background-color: bisque;
-    width: 20%;
+.message{
+    background-color: #745fac;
+    width: 28%;
     padding: 10px;
     margin: 17px 12px;
-    border: 2px solid greenyellow;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
 }
 
