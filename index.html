@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M-CHAT</title>
+    <script defer src ="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="chat.png" alt="chat-logo">
+    </nav>
+    <h1>Welcome to Molecule Chat</h1>
+    <div class="container">
+        <!-- <div class="message_box left">hi this is messege left</div>
+        <div class="message_box right">hi this is messege right</div> -->
+    </div>
+
+    <div class="send">
+        <form action="#" id="send_container">
+            <input type="text" name="messageInput" id="messageInput">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
